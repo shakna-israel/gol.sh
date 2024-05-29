@@ -25,3 +25,4 @@ fname="$(basename "$1")"
 # Make sure the base file is even:
 linecount="$(wc -l "$wd"'/file' | awk '{print $1}')"
 while ! [ $((linecount % 2)) -eq 0 ]; do
+	echo '' >> "$wd"'/file'
