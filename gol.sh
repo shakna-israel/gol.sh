@@ -30,3 +30,5 @@ while ! [ $((linecount % 2)) -eq 0 ]; do
 done
 
 # Create our basic git setup:
+git init "$wd"
+git --git-dir="$wd/.git" --work-tree="$wd" branch -m 'art'
