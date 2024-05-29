@@ -45,3 +45,4 @@ while [ "$n" -le "$linecount" ]; do
 	git --git-dir="$wd/.git" --work-tree="$wd" commit -m "$(tail -n "$n" "$wd"'/file' | head -n 1)"
 
 	n=$((n + 1))
+done
