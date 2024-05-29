@@ -36,3 +36,5 @@ git --git-dir="$wd/.git" --work-tree="$wd" branch -m 'art'
 # Iterate our base file:
 n=0
 while [ "$n" -le "$linecount" ]; do
+	# Copy line N to file.
+	head -n "$n" "$wd"'/file' | tail -n 1 >> "$wd"'/'"$fname"
