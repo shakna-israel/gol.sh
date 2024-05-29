@@ -22,3 +22,4 @@ wd="$(mktemp -d)"
 cp "$1" "$wd"'/file'
 fname="$(basename "$1")"
 
+# Make sure the base file is even:
