@@ -52,3 +52,5 @@ done
 
 git clone "$wd"
 
+rm -rf "$wd"
+
