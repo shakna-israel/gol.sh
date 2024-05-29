@@ -8,3 +8,5 @@
 # as both the file itself, and via git log, which     #
 # is traditionally oriented in reverse.               #
 #######################################################
+
+if [ -z "$1" ]; then
