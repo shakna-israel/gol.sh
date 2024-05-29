@@ -51,3 +51,4 @@ done
 #git --git-dir="$wd/.git" --work-tree="$wd" archive --format zip --output "$2" art
 
 git clone "$wd"
+
