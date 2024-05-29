@@ -47,3 +47,4 @@ while [ "$n" -le "$linecount" ]; do
 	n=$((n + 1))
 done
 
+# Write the zip of the generated git repository:
