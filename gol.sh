@@ -32,3 +32,4 @@ done
 # Create our basic git setup:
 git init "$wd"
 git --git-dir="$wd/.git" --work-tree="$wd" branch -m 'art'
+
