@@ -15,3 +15,4 @@ if [ -z "$1" ]; then
 	head "$0" -n 10 | tail -n +2
 	exit 0
 fi
+
