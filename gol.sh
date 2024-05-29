@@ -11,3 +11,5 @@
 
 if [ -z "$1" ]; then
 	echo 'gol <input:file> <output:zip>'
+	echo ''
+	head "$0" -n 10 | tail -n +2
