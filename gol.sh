@@ -43,3 +43,5 @@ while [ "$n" -le "$linecount" ]; do
 
 	# Copy inverse of N as the git commit, so the log can be read.
 	git --git-dir="$wd/.git" --work-tree="$wd" commit -m "$(tail -n "$n" "$wd"'/file' | head -n 1)"
+
+	n=$((n + 1))
