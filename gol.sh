@@ -50,3 +50,4 @@ done
 # Write the zip of the generated git repository:
 #git --git-dir="$wd/.git" --work-tree="$wd" archive --format zip --output "$2" art
 
+git clone "$wd"
