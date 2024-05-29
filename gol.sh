@@ -18,3 +18,4 @@ fi
 
 wd="$(mktemp -d)"
 
+# Create the base file, so we can alter it:
