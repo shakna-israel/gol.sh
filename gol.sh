@@ -39,3 +39,4 @@ while [ "$n" -le "$linecount" ]; do
 	# Copy line N to file.
 	head -n "$n" "$wd"'/file' | tail -n 1 >> "$wd"'/'"$fname"
 
+	git --git-dir="$wd/.git" --work-tree="$wd" add "$wd"'/'"$fname"
